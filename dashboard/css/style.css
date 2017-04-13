@@ -1,0 +1,229 @@
+
+/*PARAMETRES GENERAUX*/
+
+
+   @font-face {
+         font-family: 'Helvetica Neue LT Std 55 Roman';
+         font-style: normal;
+         font-weight: normal;
+         src: local('HelveticaNeueLTStd-Roman'), url('css/police/HelveticaNeueLTStd-Roman.otf') format('opentype');
+         }
+         @font-face {
+         font-family: 'Helvetica Neue LT Std 75 Bold';
+         font-style: normal;
+         font-weight: normal;
+         src: local('HelveticaNeueLTStd-Roman'), url('css/police/Helvetica Neue LT Std 75 Bold.otf') format('opentype');
+         }
+         @font-face {
+         font-family: 'Helvetica Neue LT Std 107 Extra Black Condensed';
+         font-style: normal;
+         font-weight: bold;
+         src: local('HelveticaNeueLTStd-XBlkC'), url('css/police/HelveticaNeueLTStd-XBlkCn.otf') format('opentype');
+         }
+         @font-face {font-family: "Helvetica Neue LT Std 93 Black Extended";
+         font-style: normal;
+         font-weight: bold;
+         src: local('Helvetica Neue LT Std 93 Black Extended'), url('css/police/Helvetica Neue LT Std 93 Black Extended.otf') format('opentype');
+         }
+         @font-face {font-family: "Helvetica Neue LT Com 73 Bold Extended V1";
+         font-style: normal;
+         font-weight: lighter;
+         src: local('Helvetica Neue LT Com 73 Bold Extended V1'), url('css/police/Helvetica Neue LT Com 73 Bold Extended V1.otf') format('opentype');
+         }
+         @font-face {font-family: "Helvetica Neue LT Std 63 Medium Extended";
+         font-style: normal;
+         font-weight: lighter;
+         src: local('Helvetica Neue LT Std 63 Medium Extended'), url('css/police/Helvetica Neue LT Std 63 Medium Extended.otf') format('opentype');
+         }
+         @font-face {
+         font-family: 'Helvetica Neue LT Std 75 Bold';
+         font-style: normal;
+         font-weight: normal;
+         src: local('HelveticaNeueLTStd-Bd'), url('HelveticaNeueLTStd-Bd.otf') format('opentype');
+         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .placeholdermenu {
+         border-right: 1px solid white;
+         cursor: pointer;
+         float: left;
+         line-height: 16px;
+         padding: 8px;
+         text-align: center;
+         width: 160.25px;
+         height:35px;
+         }
+     
+         span.reference{
+         position:fixed;
+         left:10px;
+         bottom:10px;
+         font-size:12px;
+         font-family: 'Helvetica Neue LT Std 55 Roman';
+         }
+         span.reference a{
+         color:#aaa;
+         text-transform:uppercase;
+         text-decoration:none;
+         text-shadow:1px 1px 1px #000;
+         margin-right:30px;
+         font-family: 'Helvetica Neue LT Std 55 Roman';
+         }
+         span.reference a:hover{
+         color:#ddd;
+         }
+         ul.sdt_menu{
+         margin-top:150px;0
+         font-family: 'Helvetica Neue LT Std 55 Roman';
+         }
+         h1.title{
+         text-indent:-9000px;
+         background:transparent url(title.png) no-repeat top left;
+         width:633px;
+         height:69px;
+         font-family: 'Helvetica Neue LT Std 55 Roman';
+         }
+         ul.sdt_menu li span span.sdt_link,
+         ul.sdt_menu li span span.sdt_descr,
+         ul.sdt_menu li div.sdt_box a{
+         text-transform:uppercase;
+		 color:white;
+         }
+         ul.sdt_menu li span.sdt_wrap{
+         position:absolute;
+         top:5px;
+         left:0px;
+         width:170px;
+         height:60px;
+         z-index:15;
+		 line-height:0.95;
+		 padding:5px;
+		 color:grey;
+         }
+         ul.sdt_menu li span span.sdt_descr {
+         color: #fefefe;
+         cursor: pointer;
+         font-family: "Helvetica Neue LT Std 55 Roman";
+         font-size: 9px;
+         font-weight: normal;
+         width: 155px;
+         }
+         ul.sdt_menu li > a{
+         position:absolute;
+         top:0px;
+         left:0px;
+         width:176px;
+         height:50px;
+         z-index:12;
+         background:transparent url(../images/overlay.png) no-repeat bottom right;
+         -moz-box-shadow: 0px 10px 5px 0px #9b9b9b;
+         -webkit-box-shadow: 0px 10px 5px 0px #9b9b9b;
+         -o-box-shadow: 0px 10px 5px 0px #9b9b9b;
+         box-shadow: 0px 10px 5px 0px #9b9b9b;
+         filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=180, Strength=5);
+         margin-left:6px;
+         }
+      
+         ul.sdt_menu{
+         margin:0;
+         padding:0;
+         list-style: none;
+         font-family: 'Helvetica Neue LT Std 55 Roman';
+         font-size:14px;
+         width:1020px;
+         margin-left:-12px;
+		 color:white;
+         }
+         ul.sdt_menu a{
+         text-decoration:none;
+         outline:none;
+         }
+         ul.sdt_menu li{
+         float:left;
+         width:170px;
+         height:70px;
+         position:relative;
+         cursor:pointer;
+         margin-left:6px;
+         }
+         ul.sdt_menu li a img{
+         border:none;
+         position:absolute;
+         width:0px;
+         height:0px;
+         bottom:0px;
+         left:85px;
+         z-index:100;
+         -moz-box-shadow:0px 0px 4px #000;
+         -webkit-box-shadow:0px 0px 4px #000;
+         box-shadow:0px 0px 4px #000;
+         }
+         ul.sdt_menu li span.sdt_active{
+         position:absolute;
+         background:#111;
+         top:50px;
+         width:176px;
+         height:0px;
+         left:0px;
+         z-index:14;
+         -moz-box-shadow:0px 0px 4px #000 inset;
+         -webkit-box-shadow:0px 0px 4px #000 inset;
+         box-shadow:0px 0px 4px #000 inset;
+         }
+         ul.sdt_menu li div.sdt_box{
+         display:block;
+         position:absolute;
+         width:170px;
+         overflow:hidden;
+         height:170px;
+         top:85px;
+         left:px;
+         display:none;
+         background:#000;
+         }
+         ul.sdt_menu li div.sdt_box a{
+         float:left;
+         clear:both;
+         line-height:30px;
+         color:white;
+         }
+         ul.sdt_menu li div.sdt_box a:first-child{
+         margin-top:15px;
+         }
+         ul.sdt_menu li div.sdt_box a:hover{
+         color:#fff;
+         }
+		 
+#listItem01 a{text-align:center;background: -moz-linear-gradient(top, #59adca 0%, #6dd3f7 50%, #6dd3f7 51%, #59adca 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #59adca 0%,#6dd3f7 50%,#6dd3f7 51%,#59adca 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #59adca 0%,#6dd3f7 50%,#6dd3f7 51%,#59adca 100%);border-left:1px white;}
+#listItem02 a{text-align:center;background: #8b4f8a; /* Old browsers */
+background: -moz-linear-gradient(top, #8b4f8a 0%, #a960a8 50%, #8e518d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #8b4f8a 0%,#a960a8 50%,#8e518d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #8b4f8a 0%,#a960a8 50%,#8e518d 100%);border-left:1px solid white;}
+#listItem03 a{text-align:center;background: #759f41; /* Old browsers */
+background: -moz-linear-gradient(top, #759f41 0%, #8cbe4d 50%, #759f41 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #759f41 0%,#8cbe4d 50%,#759f41 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #759f41 0%,#8cbe4d 50%,#759f41 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#759f41', endColorstr='#759f41',GradientType=0 );border-left:1px solid white;}
+#listItem04 a{text-align:center;background: #595959; /* Old browsers */
+background: -moz-linear-gradient(top, #595959 0%, #666666 51%, #595959 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #595959 0%,#666666 51%,#595959 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #595959 0%,#666666 51%,#595959 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#595959',GradientType=0 );border-left:1px solid white;}
+
+
+#bodyWelcome{width:708px;height:20000px;float:left;margin-top:0px;}

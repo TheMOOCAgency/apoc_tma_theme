@@ -1,0 +1,174 @@
+
+/*PARAMETRES GENERAUX*/
+
+
+   @font-face {
+         font-family: 'Helvetica Neue LT Std 55 Roman';
+         font-style: normal;
+         font-weight: normal;
+         src: local('HelveticaNeueLTStd-Roman'), url('css/police/HelveticaNeueLTStd-Roman.otf') format('opentype');
+         }
+         @font-face {
+         font-family: 'Helvetica Neue LT Std 75 Bold';
+         font-style: normal;
+         font-weight: normal;
+         src: local('HelveticaNeueLTStd-Roman'), url('css/police/Helvetica Neue LT Std 75 Bold.otf') format('opentype');
+         }
+         @font-face {
+         font-family: 'Helvetica Neue LT Std 107 Extra Black Condensed';
+         font-style: normal;
+         font-weight: bold;
+         src: local('HelveticaNeueLTStd-XBlkC'), url('css/police/HelveticaNeueLTStd-XBlkCn.otf') format('opentype');
+         }
+         @font-face {font-family: "Helvetica Neue LT Std 93 Black Extended";
+         font-style: normal;
+         font-weight: bold;
+         src: local('Helvetica Neue LT Std 93 Black Extended'), url('css/police/Helvetica Neue LT Std 93 Black Extended.otf') format('opentype');
+         }
+         @font-face {font-family: "Helvetica Neue LT Com 73 Bold Extended V1";
+         font-style: normal;
+         font-weight: lighter;
+         src: local('Helvetica Neue LT Com 73 Bold Extended V1'), url('css/police/Helvetica Neue LT Com 73 Bold Extended V1.otf') format('opentype');
+         }
+         @font-face {font-family: "Helvetica Neue LT Std 63 Medium Extended";
+         font-style: normal;
+         font-weight: lighter;
+         src: local('Helvetica Neue LT Std 63 Medium Extended'), url('css/police/Helvetica Neue LT Std 63 Medium Extended.otf') format('opentype');
+         }
+         @font-face {
+         font-family: 'Helvetica Neue LT Std 75 Bold';
+         font-style: normal;
+         font-weight: normal;
+         src: local('HelveticaNeueLTStd-Bd'), url('HelveticaNeueLTStd-Bd.otf') format('opentype');
+         }
+
+
+#containerMenuLeft{
+	font-family: 'Helvetica Neue LT Std 55 Roman';
+	width:155px;height:550px;background-color:white;border-radius:15px;-moz-box-shadow: 10px 10px 5px 0px #C6C6C5;
+-webkit-box-shadow: 10px 10px 5px 0px #C6C6C5;
+-o-box-shadow: 10px 10px 5px 0px #C6C6C5;
+box-shadow: 10px 10px 5px 0px #C6C6C5;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#C6C6C5, Direction=224, Strength=5);
+	
+	
+}
+
+
+
+
+#headerMenuLeft{
+	width:150px;height:150px;border-radius:15px;color:white
+	
+	
+}
+
+
+#MenuLeftheader{
+	width:150px;height:110px;border-radius:15px;color:white
+	
+	
+}
+
+
+#headerMenuLeftheader{
+	width:150px;height:10px;border-radius:15px;color:black;text-transform:uppercase;padding-left:15px;padding-top:7px;padding-bottom:25px;
+	
+	
+}
+
+#corpMenuLeftheader{
+	width:150px;height:50px;border-radius:15px;color:white;
+	
+	
+}
+
+.MiniDashItem{
+	width:155px;height:12px;border-radius:15px;color:#666666;padding-left:15px;text-transform:uppercase;  font-family: 'Helvetica Neue LT Std 75 Bold';font-size:11px;cursor:pointer;font-weight:bold;
+	
+	
+}
+
+
+#footerMenuLeftheader{
+	width:155px;height:30px;border-radius:15px;color:#666666;padding-left:15px;font-family: 'Helvetica Neue LT Std 55 Roman';font-size:10px;font-weight:bold;
+	
+	
+}
+#footerMenuLeftheaderplus{
+	width:155px;height:9px;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1f1f1+0,f4f4f4+50,f2f2f2+100 */
+background: #f1f1f1; /* Old browsers */
+background: -moz-linear-gradient(top, #f1f1f1 0%, #f4f4f4 50%, #f2f2f2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f1f1f1 0%,#f4f4f4 50%,#f2f2f2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f1f1f1 0%,#f4f4f4 50%,#f2f2f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+	
+}
+
+.itemMenuLeft{
+	
+	width:150px;height:45px;cursor:pointer;
+	
+}
+.MiniDashItemSkill{position:relative;left:-42px;float:right;top:2px;}
+
+.itemMenuLefttitle{
+	
+	width:150px;height:24px;text-transform:uppercase;font-size:12px;
+	
+}
+
+
+
+
+
+.itemMenuLeftLeft{width:25px;height:45px;text-transform:uppercase;float:left;}
+.itemMenuLeftLeftMini{width:30px;height:8px;text-transform:uppercase;float:left;background-color:;}
+.itemMenuLeftLeftMiniTrue{width:30px;height:16px;text-transform:uppercase;float:left;background-image:url('../images/cancel.png');background-size:10px 10px;background-repeat:no-repeat;background-position:10px 2.8px;}
+
+
+
+.itemMenuLeftRight{width:120px;height:45px;line-height:0.6;border-bottom:2px dotted grey;float:left;}
+.itemMenuLeftRight2lines{width:120px;height:62px;line-height:0.7;border-bottom:2px dotted grey;float:left;margin-top:-5px;}
+
+.itemMenuLeftrightTitle{width:150px;height:30px;text-transform:uppercase;font-size:12px;font-weight:bold;}
+#MiniDashItemSkillStar1{width:10px;height:16px;text-transform:uppercase;float:left;background-image:url('../images/star.png');background-size:10px 10px;background-repeat:no-repeat;background-position:0px 0px;}
+#MiniDashItemSkillStar2{width:10px;height:16px;text-transform:uppercase;float:left;background-image:url('../images/star.png');background-size:10px 10px;background-repeat:no-repeat;background-position:0px 0px;}
+#MiniDashItemSkillStar3{width:10px;height:16px;text-transform:uppercase;float:left;background-image:url('../images/star.png');background-size:10px 10px;background-repeat:no-repeat;background-position:0px 0px;}
+#MiniDashItemSkillStar4{width:10px;height:16px;text-transform:uppercase;float:left;background-image:url('../images/star.png');background-size:10px 10px;background-repeat:no-repeat;background-position:0px 0px;}
+#MiniDashItemSkillStar5{width:10px;height:16px;text-transform:uppercase;float:left;background-image:url('../images/star.png');background-size:10px 10px;background-repeat:no-repeat;background-position:0px 0px;}
+
+.itemMenuLeftrightTime{font-size:8.5px;font-weight:lighter;color:#666666;}
+.itemMenuLeftrightDetails{font-size:8.5px;font-weight:lighter;color:#666666;}
+
+
+*
+.specialLine{line-height:0.3}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
